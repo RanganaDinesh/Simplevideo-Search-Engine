@@ -10,7 +10,7 @@ $(document).ready(function(){
         event.preventDefault()
         var search = $("#search").val()
         videoSearch(API_KEY, search, 10)
-        nextpage(API_KEY, search, 1)
+       
       
           
     
