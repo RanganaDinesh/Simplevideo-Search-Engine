@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+#pres-page{
+    visibility: hidden;
+}
+#search{
+    margin-top: 20px;
+    width: 220px;
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-left: 10px;
+
+}
+p{
+    font-size: 10px;
+    margin: 10px;
+}
+button{
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    color: rgb(8, 234, 234);
+    background-color: aliceblue;
+
+}
+h4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#display-data{
+    display: flex;
+    border: 0px solid rgb(172, 167, 167);
+    border-radius: 10px;
+    margin: 20px;
+   
+}
+
+#navigation{
+ 
+    background-color: white;
+    width: 300px;
+    height: 30px;padding: 10px;
+    padding-top: 20px;
+ margin-top: 450px;
+ position:fixed;
+ z-index: 3;
+    
+}
+
+span{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span:hover{
+    color: rgb(7, 164, 243);
+}
+#video-container{
+    border: 0px solid rgb(172, 167, 167);
+    border-radius: 10px;
+    margin: 10px;
+
+}
+body{
+    background-color: rgba(213, 212, 211, 0.411);
+    text-align: center;
+    align-items: center;
+   }
+
+@media only screen and (max-width: 600px) {
+   body{
+    background-color: rgba(213, 212, 211, 0.411);
+    text-align: center;
+    align-items: center;
+   }
+   #video-container{
+    width: 110px;
+    height: 70px;
+    
+   }
+   #videos{
+    z-index: 5;
+   }
+   #video-container1{
+    position: absolute;
+    z-index: 3;
+    width: 280px;
+    height: 200px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    margin-left: -235px;
+    
+   }
+   #display-data{
+    background-color: white;
+    width: 300px;
+    height: 90px;
+ 
+    
+   }
+   #display-data{
+    margin-bottom: 10px;
+   }
+   #anotherdiv{
+    width: 300px;
+    height: 650px;
+    background-color: black;
+    position: absolute;
+    z-index: -2;
+    visibility: hidden;
+    margin-top: -680px;
+
+
+   }
+   #pres-page{
+    visibility: visible;
+    z-index: -6;
+    position:relative;
+    margin-top: 500px;
+    bottom: 0px;
+   color: #ffffff;
+    width: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(31, 105, 242);
+   }
+  }
